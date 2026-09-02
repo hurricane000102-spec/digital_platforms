@@ -1,58 +1,302 @@
+/* ========================================
+   typhoon records
+   main stylesheet
+   ======================================== */
 
-    body {
-        background-color: black;
-        color: white;
-        font-family: "Press Start 2P", system-ui;
-    }
 
-    h1, h2 {
-        color: rgb(137, 129, 238);
-        font-family: "Press Start 2P", system-ui;
-        font-size: 1.5em;
-    }
+/* ----------------------------------------
+   reset
+   ---------------------------------------- */
 
-    p {
-        color: rgb(225, 218, 31);
-        font-family: "Press Start 2P", system-ui;
-        font-size: 1.2em;
-    }
-    .blue-paragraph {
-        color: rgb(21, 0, 255);
-    }
-    #biggest {
-        font-size: 48px; font-style:italic; font-weight: bold;
-        line-height: 1.3;
-    }
-    .new-line { 
-        color:rgb(137, 129, 238);
-        font-family: dm sans, system-ui;
-        font-size: 1.5em;
-        letter-spacing: -3px;
-        text-transform: uppercase;
-        line-height: 1.3;
-        font-weight: bold;
-    }
-
-    .my-container {
-        font-size: 16px;
-    }
-
-p::selection {
-    background: rgb(211, 245, 38);
-    color: rgb(10, 3, 3);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-button {
-    width: 50px;
-    background-color: yellow;
-    color: black;
-    font-family: "dm sans", system-ui;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+    color: #e1e3d6;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* ----------------------------------------
+   typography
+   ---------------------------------------- */
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+small {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+
+/* ----------------------------------------
+   links
+   ---------------------------------------- */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* ----------------------------------------
+   header
+   ---------------------------------------- */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 24px 32px;
 
 }
 
-span {
-    padding: 10px 36px 10px 5px;
-    border: 1px solid yellow;
-    margin: 12px;
+.site-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
 }
 
+.site-title:hover {
+    text-decoration: none;
+}
+
+
+/* ----------------------------------------
+   navigation
+   ---------------------------------------- */
+
+nav ul {
+    display: flex;
+    gap: 32px;
+
+    list-style: none;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ----------------------------------------
+   main content
+   ---------------------------------------- */
+
+main {
+    width: 100%;
+}
+
+.shop {
+    padding: 64px 32px 96px;
+}
+
+
+/* ----------------------------------------
+   shop header
+   ---------------------------------------- */
+
+.section-header {
+    margin-bottom: 48px;
+}
+
+.section-header h1 {
+    margin-bottom: 8px;
+}
+
+.section-header p {
+    font-size: 16px;
+}
+
+
+/* ----------------------------------------
+   record grid
+   ---------------------------------------- */
+
+.record-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px 24px;
+}
+
+
+/* ----------------------------------------
+   record
+   ---------------------------------------- */
+
+.record {
+    min-width: 0;
+}
+
+.record figure {
+    width: 100%;
+}
+
+.record img {
+    display: block;
+
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    object-fit: cover;
+
+    margin-bottom: 16px;
+
+    background-color: #000000;
+}
+
+.record figcaption h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+
+    margin-bottom: 4px;
+}
+
+.record figcaption p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.record figcaption p:last-child {
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+
+/* ----------------------------------------
+   record hover
+   ---------------------------------------- */
+
+.record a:hover {
+    text-decoration: none;
+}
+
+.record a:hover img {
+    opacity: 0.75;
+}
+
+.record a:hover h2 {
+    text-decoration: underline;
+}
+
+
+/* ----------------------------------------
+   footer
+   ---------------------------------------- */
+
+footer {
+    padding: 24px 32px;
+
+}
+
+footer p {
+    font-size: 12px;
+}
+
+
+/* ----------------------------------------
+   responsive
+   ---------------------------------------- */
+
+/* Tablet */
+
+@media (max-width: 900px) {
+
+    .record-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+
+        padding: 20px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .shop {
+        padding: 48px 20px 72px;
+    }
+
+    .section-header {
+        margin-bottom: 32px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .record-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+}
