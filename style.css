@@ -20,11 +20,17 @@ html {
 
 body {
     background-color: #000000;
-    color: #e1e3d6;
+    color: #efefe6;
     font-family: "IBM Plex Mono", monospace;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+}
+
+:root{
+    --primary-color: #000000;
+    --secondary-color: #efefe6;
+    --font-size-base: 16px;
 }
 
 
@@ -106,6 +112,7 @@ a:hover {
 
 .site-title:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -128,6 +135,11 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+::selection {
+    background-color: #a492e8;
+    color: #000000;
 }
 
 
@@ -251,7 +263,7 @@ footer p {
    responsive
    ---------------------------------------- */
 
-/* Tablet */
+/* tablet */
 
 @media (max-width: 900px) {
 
@@ -262,7 +274,7 @@ footer p {
 }
 
 
-/* Mobile */
+/* mobile */
 
 @media (max-width: 600px) {
 
@@ -297,6 +309,172 @@ footer p {
 
     footer {
         padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+
+    .about {
+        padding: 48px 20px 72px;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-content section:last-child {
+        grid-column: span 1;
+    }
+
+    @media (max-width: 600px) {
+
+    .contact {
+        padding: 48px 20px 72px;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-content section:last-child {
+        grid-column: span 1;
+    }
+
+}
+
+}
+}
+.about {
+    max-width: 1000px;
+    padding: 64px 32px 96px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 64px 48px;
+}
+
+.about-content section:last-child {
+    grid-column: span 2;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.about-content p {
+    max-width: 650px;
+    margin-bottom: 16px;
+}
+
+.contact {
+    max-width: 1000px;
+    padding: 64px 32px 96px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 64px 48px;
+}
+
+.contact-content section:last-child {
+    grid-column: span 2;
+}
+
+.contact-content h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.contact-content p {
+    max-width: 650px;
+    margin-bottom: 16px;
+}
+
+::selection {
+    background-color:rgb(231, 255, 47);
+    color: black;
+}
+
+/* ----------------------------------------
+   RECORD LISTING PAGE
+   ---------------------------------------- */
+
+.record-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 64px 32px 96px;
+}
+
+.record-image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.record-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.record-info h1 {
+    margin: 8px 0 24px;
+}
+
+.record-price {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.record-info button {
+    width: fit-content;
+
+    margin: 32px 0;
+
+    padding: 12px 20px;
+
+    background-color: #dfff00;
+    color: #0a0a0a;
+
+    border: none;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.record-info button:hover {
+    opacity: 0.75;
+}
+
+
+/* ----------------------------------------
+   MOBILE
+   ---------------------------------------- */
+
+@media (max-width: 600px) {
+
+    .record-page {
+        grid-template-columns: 1fr;
+        gap: 40px;
+
+        padding: 48px 20px 72px;
+    }
+
+    .record-info h1 {
+        font-size: 36px;
     }
 
 }
