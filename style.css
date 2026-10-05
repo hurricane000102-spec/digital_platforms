@@ -192,6 +192,17 @@ main {
     min-width: 0;
 }
 
+.record h3 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.record p {
+    margin: 4px 0 0;
+    font-size: 12px;
+}
+
 .record figure {
     width: 100%;
 }
