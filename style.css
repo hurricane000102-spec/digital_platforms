@@ -227,6 +227,23 @@ main {
     font-weight: 500;
 }
 
+.filters {
+    margin-bottom: 30px;
+}
+
+.filters label {
+    margin-right: 10px;
+}
+
+.filters select {
+    background-color: #0a0a0a;
+    color: #dfff00;
+    border: 1px solid #dfff00;
+    padding: 8px 12px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+}
+
 
 /* ----------------------------------------
    record hover
