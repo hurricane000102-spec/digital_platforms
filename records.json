@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Memory (The Theme From Cats) [Japanese 7\" Single]",
+    "artist": "Elaine Paige",
+    "year": 1981,
+    "genre": "Pop",
+    "price": "$26.00",
+    "image": "cats-cover.jpg"
+  },
+  {
+    "name": "Computer World (Japanese LP)",
+    "artist": "Kraftwerk",
+    "year": 1981,
+    "genre": "Electronic, Pop",
+    "price": "$84.00",
+    "image": "computerworld-cover.jpg"
+  },
+  {
+    "name": "The Velvet Rope (CD)",
+    "artist": "Janet Jackson",
+    "year": 1997,
+    "genre": "R&B, Pop",
+    "price": "$22.00",
+    "image": "velvetrope-cover.jpg"
+  },
+  {
+    "name": "Spacy (First Pressing LP)",
+    "artist": "山下達郎",
+    "year": 1977,
+    "genre": "Jazz, Rock",
+    "price": "$96.00",
+    "image": "spacy-cover.jpg"
+  },
+  {
+    "name": "First Love (Chinese CD)",
+    "artist": "Utada Hikaru",
+    "year": 1998,
+    "genre": "Pop, R&B",
+    "price": "$30.00",
+    "image": "firstlove-cover.jpg"
+  },
+  {
+    "name": "The Rainbow Goblins (LP)",
+    "artist": "Masayoshi Takanaka",
+    "year": 1981,
+    "genre": "Jazz, Rock",
+    "price": "$125.00",
+    "image": "rainbowgoblins-cover.jpg"
+  },
+  {
+    "name": "In The Flesh (Japanese 7\" Single)",
+    "artist": "Blondie",
+    "year": 1976,
+    "genre": "Rock",
+    "price": "$27.00",
+    "image": "intheflesh-cover.jpg"
+  },
+  {
+    "name": "Fever (Deluxe Edition) [Japanese Edition]",
+    "artist": "Kylie Minogue",
+    "year": 2001,
+    "genre": "Electronic, Pop",
+    "price": "$59.00",
+    "image": "fever-cover.jpg"
+  },
+  {
+    "name": "Nothing Really Matters (2LP US Pressing)",
+    "artist": "Madonna",
+    "year": 1998,
+    "genre": "Electronic, Pop",
+    "price": "$31.00",
+    "image": "nothingmatters-cover.jpg"
+  },
+  {
+    "name": "Living My Life (Japanese LP)",
+    "artist": "Grace Jones",
+    "year": 1982,
+    "genre": "Electronic, Disco",
+    "price": "$65.00",
+    "image": "livingmylife-cover.jpg"
+  },
+  {
+    "name": "Walk On The Wild Side (Japanese 7\" Single)",
+    "artist": "Lou Reed",
+    "year": 1972,
+    "genre": "Rock",
+    "price": "$15.00",
+    "image": "lou-cover.jpg"
+  },
+  {
+    "name": "She's a Rainbow (Japanese 7\" Single)",
+    "artist": "The Rolling Stones",
+    "year": 1967,
+    "genre": "Rock",
+    "price": "$50.00",
+    "image": "she'sarainbow-cover.jpg"
+  },
+  {
+    "name": "Around The World (1LP Single)",
+    "artist": "Daft Punk",
+    "year": 1997,
+    "genre": "Electronic",
+    "price": "$37.00",
+    "image": "aroundtheworld-cover.jpg"
+  },
+  {
+    "name": "Human Behaviour (The Underworld Mixes)",
+    "artist": "Bjork",
+    "year": 1993,
+    "genre": "Electronic",
+    "price": "$45.00",
+    "image": "humanbehavior-cover.jpg"
+  },
+  {
+    "name": "Pharaoh Sanders Quintet",
+    "artist": "Pharaoh Sanders Quintet",
+    "year": 1968,
+    "genre": "Jazz",
+    "price": "$114.00",
+    "image": "pharoahsanders-cover.jpg"
+  },
+  {
+    "name": "Leather And Lace (Japanese 7\" Single)",
+    "artist": "Stevie Nicks",
+    "year": 1981,
+    "genre": "Pop",
+    "price": "$29.00",
+    "image": "leatherandlace-cover.jpg"
+  },
+  {
+    "name": "Hounds Of Love (Japanese CD) [Remastered]",
+    "artist": "Kate Bush",
+    "year": 1985,
+    "genre": "Pop, Rock",
+    "price": "$58.00",
+    "image": "hounds-cover.jpg"
+  },
+  {
+    "name": "It's Oh So Quiet (CD Single)",
+    "artist": "Bjork",
+    "year": 1995,
+    "genre": "Jazz, Pop",
+    "price": "$28.00",
+    "image": "quiet-cover.jpg"
+  },
+  {
+    "name": "The Hustle (Japanese 7\" Single)",
+    "artist": "Van McCoy",
+    "year": 1975,
+    "genre": "Funk, Disco",
+    "price": "$18.00",
+    "image": "thehustle-cover.jpg"
+  },
+  {
+    "name": "Dark Side Of The Moon (Japanese LP)",
+    "artist": "Pink Floyd",
+    "year": 1973,
+    "genre": "Rock",
+    "price": "$145.00",
+    "image": "darkside-cover.jpg"
+  },
+  {
+    "name": "Big Time Sensuality (1LP Single)",
+    "artist": "Bjork",
+    "year": 1993,
+    "genre": "Electronic",
+    "price": "$32.00",
+    "image": "bigtime-cover.jpg"
+  },
+  {
+    "name": "Some Kind Of Bliss",
+    "artist": "Kylie Minogue",
+    "year": 1997,
+    "genre": "Electronic, Pop",
+    "price": "$78.00",
+    "image": "confideinme-cover.jpg"
+  },
+  {
+    "name": "Dance With Dolly",
+    "artist": "Dolly Parton",
+    "year": 1978,
+    "genre": "Funk, Disco",
+    "price": "$16.00",
+    "image": "dancewithdolly-cover.jpg"
+  },
+  {
+    "name": "Quadrastate (UK Pressing)",
+    "artist": "808 State",
+    "year": 1989,
+    "genre": "Electronic",
+    "price": "$56.00",
+    "image": "808-cover.jpg"
+  },
+  {
+    "name": "Coal Miner's Daughter (Japanese 7\" Single)",
+    "artist": "Loretta Lynn",
+    "year": 1970,
+    "genre": "Folk, Country",
+    "price": "$46.00",
+    "image": "coalminer's-cover.jpg"
+  },
+  {
+    "name": "Sign \"O\" The Times (Japanese LP)",
+    "artist": "Prince",
+    "year": 1987,
+    "genre": "Rock, Funk",
+    "price": "$230.00",
+    "image": "signotimes-cover.jpg"
+  },
+  {
+    "name": "Spark (12\" Single)",
+    "artist": "Tori Amos",
+    "year": 1998,
+    "genre": "Electronic, Rock",
+    "price": "$55.00",
+    "image": "spark-cover.jpg"
+  },
+  {
+    "name": "Fourth World Vol. 1 - Possible Musics (Japanese LP)",
+    "artist": "Jon Hassell / Brian Eno",
+    "year": 1980,
+    "genre": "Electronic",
+    "price": "$112.00",
+    "image": "possiblemusics-cover.jpg"
+  }
+]

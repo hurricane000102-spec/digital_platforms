@@ -1,208 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Super Typhoon Records</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
+
 
     <header>
         <div class="site-header">
-            <a href="index.html" class="site-title">SUPER TYPHOON RECORDS</a>
+
+            <a href="index.html" class="site-title">
+                SUPER TYPHOON RECORDS
+            </a>
 
             <nav aria-label="Main navigation">
                 <ul>
-                    <li><a href="index.html">Shop</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a href="index.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
                 </ul>
             </nav>
+
         </div>
     </header>
 
 
+
+
     <main>
 
-        <section class="shop" aria-labelledby="shop-heading">
+        <section class="shop">
 
-            <header class="section-header">
-                <h1 id="shop-heading">SHOP</h1>
-                <p>Records, CDs, and Cassettes.</p>
-            </header>
+            <h2>Shop</h2>
 
+            <div class="filters">
 
-            <div class="record-grid">
+    <label for="genre-filter">Genre:</label>
 
-                <article class="record">
-                    <a href="memory.html">
-                        <figure>
-                            <img src="images/cats-cover.jpg" alt="Album cover for Memory">
-                            <figcaption>
-                                <h2>Memory (The Theme From Cats) [Japanese 7" Single]</h2>
-                                <p>Elaine Paige</p>
-                                <p>$26.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+    <select id="genre-filter">
 
+        <option value="all">All Genres</option>
+        <option value="Electronic">Electronic</option>
+        <option value="Pop">Pop</option>
+        <option value="Rock">Rock</option>
+        <option value="Jazz">Jazz</option>
+        <option value="R&B">R&B</option>
+        <option value="Disco">Disco</option>
+        <option value="Funk">Funk</option>
+        <option value="Folk">Folk</option>
+        <option value="Country">Country</option>
 
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/computerworld-cover.jpg" alt="Album cover for Computer World">
-                            <figcaption>
-                                <h2>Computer World (Japanese LP)</h2>
-                                <p>Kraftwerk</p>
-                                <p>$84.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+    </select>
 
+</div>
 
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/velvetrope-cover.jpg" alt="Album cover for The Velvet Rope">
-                            <figcaption>
-                                <h2>The Velvet Rope (CD)</h2>
-                                <p>Janet Jackson</p>
-                                <p>$22.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
+            <div class="record-grid" id="record-grid">
 
-
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/spacy-cover.jpg" alt="Album cover for Spacy">
-                            <figcaption>
-                                <h2>Spacy (First Pressing LP)</h2>
-                                <p>山下達郎</p>
-                                <p>$96.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-
-
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/firstlove-cover.jpg" alt="Album cover for First Love">
-                            <figcaption>
-                                <h2>First Love (Chinese CD)</h2>
-                                <p>Utada Hikaru</p>
-                                <p>$30.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-
-
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/rainbowgoblins-cover.jpg" alt="Album cover for Rainbow Goblins">
-                            <figcaption>
-                                <h2>The Rainbow Goblins (LP)</h2>
-                                <p>Masayoshi Takanaka</p>
-                                <p>$125.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-
-
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/intheflesh-cover.jpg" alt="Album cover for In The Flesh">
-                            <figcaption>
-                                <h2>In The Flesh (Japanese 7" Single)</h2>
-                                <p>Blondie</p>
-                                <p>$27.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-
-
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/fever-cover.jpg" alt="Album cover for Fever">
-                            <figcaption>
-                                <h2>Fever (Deluxe Edition) [Japanese Edition]</h2>
-                                <p> Kylie Minogue</p>
-                                <p>$59.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-
-
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/nothingmatters-cover.jpg" alt="Album cover for Nothing Really Matters">
-                            <figcaption>
-                                <h2>Nothing Really Matters (2LP US Pressing)</h2>
-                                <p>Madonna</p>
-                                <p>$31.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-
-
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/livingmylife-cover.jpg" alt="Album cover for Living My Life">
-                            <figcaption>
-                                <h2>Living My Life (Japanese LP)</h2>
-                                <p>Grace Jones</p>
-                                <p>$65.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-
-
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/lou-cover.jpg" alt="Album cover for Walk On The Wild Side">
-                            <figcaption>
-                                <h2>Walk On The Wild Side (Japanese 7" Single)</h2>
-                                <p>Lou Reed</p>
-                                <p>$15.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>
-
-
-                <article class="record">
-                    <a href="#">
-                        <figure>
-                            <img src="images/she'sarainbow-cover.jpg" alt="Album cover for She's a Rainbow">
-                            <figcaption>
-                                <h2>She's a Rainbow (Japanese 7" Single)</h2>
-                                <p>The Rolling Stones</p>
-                                <p>$50.00</p>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </article>    
+                
 
             </div>
 
@@ -212,8 +80,14 @@
 
 
     <footer>
-        <p> 2026 SUPER TYPHOON RECORDS</p>
+
+        <p>SUPER TYPHOON RECORDS</p>
+
     </footer>
 
+
+    <script src="shop.js"></script>
+
 </body>
+
 </html>
