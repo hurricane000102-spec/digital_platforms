@@ -19,16 +19,18 @@ function displayRecords(recordsToDisplay) {
 
     recordGrid.innerHTML = "";
 
-    recordsToDisplay.forEach((record, index) => {
+    recordsToDisplay.forEach(record => {
 
         const article = document.createElement("article");
 
         article.classList.add("record");
 
+        const originalIndex = records.indexOf(record);
+
         article.innerHTML = `
             <figure>
 
-                <a href="record.html?record=${index}">
+                <a href="record.html?record=${originalIndex}">
 
                     <img
                         src="images/${record.image}"
@@ -72,9 +74,7 @@ genreFilter.addEventListener("change", function () {
 
 
     const filteredRecords = records.filter(record =>
-
         record.genre.includes(selectedGenre)
-
     );
 
 

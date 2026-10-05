@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Memory (1987) — Super Typhoon Records</title>
+    <title>Record — Super Typhoon Records</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -39,47 +39,55 @@
 
     <main>
 
-        <article class="record-page">
+        <section class="record-page">
 
-            <div class="record-image">
-                <img
-                    src="images/cats-cover.jpg"
-                    alt="Memory Elaine Paige Japanese 7&quot; Single">
-            </div>
+            <figure>
+                <img id="record-image" src="" alt="">
+            </figure>
 
 
-            <div class="record-info">
+            <article class="record-info">
 
-                <p>Elaine Paige</p>
+                <p id="record-artist"></p>
 
-                <h1>Memory (The Theme From Cats) [Japanese 7" Single]</h1>
+                <h2 id="record-name"></h2>
 
-                <p class="record-price">$26.00</p>
+                <p id="record-price"></p>
 
-                <p>
-                    1987 · Musical Theater · Used
-                </p>
+
+                <dl>
+
+                    <dt>Year</dt>
+                    <dd id="record-year"></dd>
+
+                    <dt>Genre</dt>
+                    <dd id="record-genre"></dd>
+
+                </dl>
 
 
                 <button type="button">
                     Add to Cart
                 </button>
 
+
                 <p>
                     <a href="index.html">← Back to Shop</a>
                 </p>
 
-            </div>
+            </article>
 
-        </article>
+        </section>
 
     </main>
 
 
     <footer>
-        <p>&copy; 2026 Super Typhoon Records</p>
+        <p>SUPER TYPHOON RECORDS</p>
     </footer>
 
-</body>
 
+    <script src="record.js"></script>
+
+</body>
 </html>
